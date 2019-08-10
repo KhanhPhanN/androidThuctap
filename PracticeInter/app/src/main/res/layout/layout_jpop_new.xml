@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_8"
+    android:background="@color/colorwhite"
+    android:paddingBottom="@dimen/padding_12">
+
+    <ImageView
+        android:id="@+id/iv_title_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_title_new"
+        android:layout_marginLeft="@dimen/margin_8"
+        android:layout_marginTop="@dimen/margin_2"
+        android:src="@drawable/ic_video_new"
+        android:tint="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tv_title_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_12"
+        android:layout_toRightOf="@id/iv_title_new"
+        android:text="@string/top_new_song"
+        android:layout_marginLeft="@dimen/padding_6"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:id="@+id/btn_seen_more_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_title_new"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_4"
+        android:paddingRight="@dimen/padding_8"
+        android:paddingBottom="@dimen/padding_4"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_4"
+            android:text="@string/see_more"
+            android:textColor="@color/colorTextMore"
+            android:textSize="@dimen/textSize12"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_right" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_new">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_jpop_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_4"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:visibility="gone"
+            tools:ignore="RtlSymmetry" />
+
+        <include layout="@layout/place_holder_anime_new" />
+    </FrameLayout>
+
+</RelativeLayout>

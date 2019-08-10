@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity"
+    >
+   <android.support.design.widget.AppBarLayout
+       android:id="@+id/app_bar_layout"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:fitsSystemWindows="true"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+     <android.support.v7.widget.Toolbar
+         android:id="@+id/toolBar"
+         android:layout_width="match_parent"
+         android:layout_height="?attr/android:actionBarSize"
+         app:layout_scrollFlags="scroll|enterAlways"
+         android:background="@color/colorwhite"
+         app:title="Video"
+         app:titleTextColor="@color/colorblack"
+        >
+         <ImageView
+             android:src="@drawable/pipop"
+             android:layout_marginStart="0dp"
+             android:layout_marginLeft="0dp"
+             android:layout_width="50dp"
+             android:layout_height="wrap_content" />
+     </android.support.v7.widget.Toolbar>
+
+   </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:layout_below="@id/app_bar_layout"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/colorwhite"
+        app:itemIconTint="@drawable/bottom_navigation_color_selector"
+        app:itemTextColor="@drawable/bottom_navigation_color_selector"
+        app:menu="@menu/navication"/>
+</android.support.design.widget.CoordinatorLayout>

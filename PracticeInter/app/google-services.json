@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957134149008",
+    "firebase_url": "https://practiceinter.firebaseio.com",
+    "project_id": "practiceinter",
+    "storage_bucket": "practiceinter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957134149008:android:268208ca0c62949b",
+        "android_client_info": {
+          "package_name": "com.example.enterc.practiceinter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957134149008-96bcijurmr4ujj7nl85ol1f2ftlnvoln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.enterc.practiceinter",
+            "certificate_hash": "853fae3bbfcb8e8dd65ab4e37b3492810d618c9f"
+          }
+        },
+        {
+          "client_id": "957134149008-25oi4i4dqsunq9eum8g4o499kb8517cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAz91zcH4ZJ9Knvob6ivKmFyfXlkfYqPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957134149008-25oi4i4dqsunq9eum8g4o499kb8517cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

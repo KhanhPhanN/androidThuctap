@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_8"
+    android:background="@color/colorWhite"
+    android:paddingBottom="@dimen/padding_12">
+
+    <ImageView
+        android:id="@+id/iv_title_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_title_hot"
+        android:layout_marginLeft="@dimen/margin_8"
+        android:layout_marginTop="@dimen/margin_2"
+        android:src="@drawable/ic_video_hot"
+        android:tint="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tv_title_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_12"
+        android:layout_toRightOf="@id/iv_title_hot"
+        android:text="@string/top_favorite"
+        android:layout_marginLeft="@dimen/padding_6"
+        android:textColor="@color/colorBlack" />
+
+    <LinearLayout
+        android:id="@+id/btn_seen_more_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_title_hot"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_4"
+        android:paddingRight="@dimen/padding_8"
+        android:paddingBottom="@dimen/padding_4"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_4"
+            android:text="@string/see_more"
+            android:textColor="@color/colorTextMore"
+            android:textSize="@dimen/textSize12"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_right" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_hot">
+
+        <LinearLayout
+            android:id="@+id/layout_rv_hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:layout_marginRight="@dimen/margin_8"
+                android:background="@drawable/bg_button_gray"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_16"
+                    android:paddingTop="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_16"
+                    android:paddingBottom="@dimen/padding_4"
+                    android:text="@string/top_week"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="@dimen/textSize16"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bg_button_gray_v3" />
+
+                <TextView
+                    android:id="@+id/tv_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_16"
+                    android:paddingTop="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_16"
+                    android:paddingBottom="@dimen/padding_4"
+                    android:text="@string/top_month"
+                    android:textColor="@color/colorTextGray" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bg_button_gray_v3" />
+
+                <TextView
+                    android:id="@+id/tv_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_16"
+                    android:paddingTop="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_16"
+                    android:paddingBottom="@dimen/padding_4"
+                    android:text="@string/all"
+                    android:textColor="@color/colorTextGray" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_hot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <include layout="@layout/place_holder_anime_hot" />
+    </FrameLayout>
+
+</RelativeLayout>

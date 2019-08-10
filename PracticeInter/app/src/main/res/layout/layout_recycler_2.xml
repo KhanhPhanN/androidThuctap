@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="260dp"
+    android:layout_height="180dp"
+    android:layout_marginLeft="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.CardView
+    android:layout_width="260dp"
+    android:layout_height="180dp"
+    app:cardCornerRadius="@dimen/dp_10">
+<RelativeLayout
+    android:id="@+id/rl_album"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="180dp"
+    android:background="@drawable/album">
+
+    <TextView
+        android:id="@+id/tv_name_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"
+        android:text="Tên Album"
+        android:textSize="20dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name_album"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorwhite"
+        android:text="Count" />
+</RelativeLayout>
+</android.support.v7.widget.CardView>
+</FrameLayout>

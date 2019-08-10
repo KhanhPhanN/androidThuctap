@@ -1,0 +1,406 @@
+<resources>
+    <string name="app_name">PracticeInter</string>
+    <string name="key_youtube_api">AIzaSyA5Z1muPiy_PPdpLHll1DYB0hpDDXadY84</string>
+    <!--facebook-->
+    <string name="facebook_app_id" translatable="false">1549409948696703</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1549409948696703</string>
+
+    <!--item-navigation-bottom-->
+    <string name="video">Video</string>
+    <string name="anime">Anime</string>
+    <string name="account">Account</string>
+    <string name="pikafeed">News Feed</string>
+    <string name="notify">Notifications</string>
+    <string name="fanpage">Fanpage Facebook</string>
+    <string name="more">More</string>
+
+    <!--detail video-->
+    <string name="listen">Lyrics</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="relate">Related</string>
+    <string name="not_logged_in">Please log in to continue</string>
+    <string name="something_wrong">Something went wrong, try again later</string>
+    <string name="save_success">Saved video successfully</string>
+    <string name="remove_my_video_success">Remove saved video successfully</string>
+    <string name="sure_sign_out">Are you sure you want to log out of PiPop?</string>
+    <string name="seen_more_detail_word">Sign in to see detail word</string>
+    <string name="signin_history">Sign in to access videos that you\'ve watched or saved</string>
+    <string name="no_history">You don\'t have a video view history yet</string>
+
+    <string name="search">Search</string>
+    <string name="update_profile">Update profile</string>
+    <string name="search_videos">Keywords</string>
+    <string name="top_new_song">Top newest videos</string>
+    <string name="see_more">See more</string>
+    <string name="top_favorite">Top favourite videos</string>
+    <string name="text_xem_tiep">History</string>
+    <string name="top_video">Most watched video</string>
+    <string name="list_video">Song list</string>
+    <string name="album_hot">Album hot</string>
+    <string name="pi_chart">PiChart</string>
+
+    <!-- Fragment setting -->
+    <string name="off">Off</string>
+    <string name="replay">Replay</string>
+    <string name="continues">Up next</string>
+    <string name="play_next">Up next</string>
+    <string name="show_furigana">Show Furigana</string>
+    <string name="show_lyric_ja">Show Japanese</string>
+    <string name="show_romaji">Show Romanji</string>
+    <string name="show_lyric_sub">Show translation</string>
+    <string name="follow">Follow</string>
+    <string name="followed">Following</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="report_user">Report</string>
+    <string name="report_content">Report content</string>
+    <string name="do_follow">Do you want to follow %s ?</string>
+    <string name="do_unfollow">Unfollow %s?</string>
+    <string name="no_following">Not following anybody</string>
+    <string name="no_follower">No followers</string>
+
+    <string name="easy">Easy</string>
+    <string name="difficult">Difficult</string>
+    <string name="medium">Medium</string>
+    <string name="loading">Loading…</string>
+    <string name="no_connection">No internet connection\n Pull Down to Refresh</string>
+    <string name="no_connect">No internet connection\n Touch to Refresh</string>
+    <string name="loading_list_view_error">Can not get list videos\n Touch to Refresh</string>
+    <string name="loading_lyric_error">Can not get lyrics\n Pull Down to Refresh</string>
+    <string name="loading_vocabulary_error">Can not get vocabulary\n Touch to Refresh</string>
+    <string name="no_translate">Translation unavailable</string>
+    <string name="load_error">Something went wrong\n Touch to Refresh</string>
+    <string name="no_translations">No translations</string>
+    <string name="no_relate">No related songs</string>
+    <string name="empty">No data.</string>
+    <string name="empty_search">No data\n Can not find what you are looking for</string>
+    <string name="no_vocabulary">No vocabulary</string>
+    <string name="no_notify">No notification!</string>
+    <string name="loading_notify_error">Can not get notification.\n Touch to Refresh</string>
+    <string name="no_signin_notity">You have not logged in.\n Please log in to get notification!</string>
+    <string name="loading_list_translate_error">Can not get list video.\n Pull Down to Refresh</string>
+    <string name="no_comment">Be the first to comment</string>
+    <string name="empty_user_trans">No translations available</string>
+
+    <string name="signin_account">Log into to start using the whole feature of PiPop</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Log in</string>
+    <string name="sign_out">Log out</string>
+    <string name="or">or</string>
+    <string name="next">Continue</string>
+    <string name="finish">Finish</string>
+    <string name="save">Save</string>
+    <string name="profile_update">Edit profile</string>
+    <string name="profile">Profile</string>
+    <string name="profile_update_info">Edit profile</string>
+    <string name="register_facebook">Register with FB</string>
+    <string name="register_google">Register with Google</string>
+    <string name="register_email">Register with Email</string>
+    <string name="account_not_correct">Email or password not correct, please try again. </string>
+    <string name="register_agree_text">By registering with PiPop you accept and agree to be bound by the terms and conditions &lt;a href="https://pipop.net/disclaim">terms and conditions&lt;/a> </string>
+
+    <string name="sign_in_facebook">Log in with FB</string>
+    <string name="sign_in_google">Log in with Google</string>
+    <string name="sign_in_email_name"><font size="13">Enter your name</font></string>
+    <string name="sign_in_email_account"><font size="13">Enter your email</font></string>
+    <string name="invalid_email">Email invalidate</string>
+    <string name="sign_in_email_password"><font size="13">Enter your password</font></string>
+    <string name="enter_password">Enter your password</string>
+    <string name="invalid_password">Your password must be at least 6 characters</string>
+    <string name="sign_in_email_submit_password"><font size="13">Confirm password</font></string>
+    <string name="match_submit_password">The password does not match</string>
+    <string name="fogot_password">Forgot password.</string>
+    <string name="email_already_exists">Email already exists</string>
+    <string name="enter_full_info">You need to fill in a form!</string>
+    <string name="signin_error">Login failed, please try again later!</string>
+    <string name="register_success">Register success</string>
+    <string name="register_error">Register failed, please try again later!</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="error">Error! Please try again later</string>
+    <string name="follow_success">Followed successfully</string>
+    <string name="unfollow_success">Unfollowed successfully</string>
+    <string name="update_success">Updated successfully</string>
+    <string name="comment_fail">Comment failed, please try again later</string>
+    <string name="see_list">See list</string>
+
+    <string name="send_video">Send video to PiPop</string>
+    <string name="enter_link_youtube">Enter link Youtube</string>
+    <string name="link_youtube_not_valid">Invalid YouTube link, please check again.</string>
+    <string name="signin_contribute">You need to sign in to send video to PiPop</string>
+    <string name="contribute_success">Send video successfully</string>
+
+    <string name="name">NAME</string>
+    <string name="what_name">Your name</string>
+    <string name="japanese_level">Japanese Level</string>
+    <string name="sex">Gender</string>
+    <string name="birthday">Date of birth</string>
+    <string name="badge_viewer">Viewer</string>
+    <string name="song_favorite">Favourite songs :</string>
+    <string name="song_favorite_v2">Favourite songs</string>
+    <string name="what_song_favorite">Your favourite songs</string>
+    <string name="singer_favorite">Favourite artists :</string>
+    <string name="singer_favorite_v2">Favourite artists</string>
+    <string name="what_singer_favorite">Your favourite artists</string>
+    <string name="more_profile">About me:</string>
+    <string name="more_profile_v2">About me</string>
+    <string name="what_more_profile">About me</string>
+    <string name="following">Following</string>
+    <string name="be_follow">Follower</string>
+    <string name="video_saved">Favourite videos</string>
+    <string name="video_hot">Outstanding videos</string>
+    <string name="video_translated">Translated videos</string>
+    <string name="choose">Choose</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="unknown">Unknown</string>
+    <string name="no_info">No information</string>
+    <string name="text_report">Report error</string>
+    <string name="text_enter_error">Occurred error</string>
+    <string name="load_failed">Load failed</string>
+    <string name="singer">Artist</string>
+    <string name="translator">Translator</string>
+    <string name="user">User</string>
+    <string name="other">Biography :</string>
+    <string name="founding">Active date</string>
+    <string name="success">Successfully!</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_2">Cancel</string>
+    <string name="cancel_3">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="share">Share</string>
+    <string name="share_with">Share with?</string>
+    <string name="share_video">shared a video</string>
+    <string name="you_want_to">Are you sure you want to</string>
+    <string name="clear">Clear</string>
+    <string name="clear_search">Clear your search history ?</string>
+    <string name="clear_item_search">Clear from your search history ?</string>
+    <string name="change_password">Change password</string>
+    <string name="change_password_2">Change password</string>
+    <string name="password_current">Current password</string>
+    <string name="password_new">New password</string>
+    <string name="submit_password">Confirm password</string>
+    <string name="enter_password_below">Please enter your new password below</string>
+    <string name="can_not_null">You cannot leave this field empty</string>
+    <string name="password_wrong">Wrong password. Please try again.</string>
+    <string name="success_2">Successfully</string>
+    <string name="change_password_success">Change password successfully</string>
+    <string name="go_homepage">Return to Home page</string>
+    <string name="thanks_contribution">Thank you for your contribution</string>
+    <string name="go_back">Go back</string>
+
+    <string name="n1" translatable="false">N1</string>
+    <string name="n2" translatable="false">N2</string>
+    <string name="n3" translatable="false">N3</string>
+    <string name="n4" translatable="false">N4</string>
+    <string name="n5" translatable="false">N5</string>
+
+    <string name="day">Day:</string>
+    <string name="month">Month:</string>
+    <string name="year">Year:</string>
+
+    <string name="name_song">Song\'s name</string>
+    <string name="name_singer">Artist\'s name</string>
+    <string name="link_youtube">Link Youtube</string>
+    <string name="send">Send</string>
+    <string name="view_translation">View translations</string>
+    <string name="want_to_quit">You have not send your Lyrics to PiPop yet. Are you sure you want to quit?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <!--fragment more-->
+    <string name="text_update_premium">Update Premium version</string>
+    <string name="text_lh_gop_y">Feedback</string>
+    <string name="text_danh_gia_ud">Rate us</string>
+    <string name="text_dieu_khoan_sd">Terms</string>
+    <string name="blog">Blog Lyrics</string>
+
+    <string name="update">UPDATE</string>
+    <string name="update_youtube">Update the youtube app</string>
+    <string name="update_contain">Please update the YouTube app to watch videos on PiPop.</string>
+    <string name="watch_want">Watch when you want</string>
+    <string name="watch_later">Save videos to watch later. \n Your list will be shown right here.</string>
+
+    <string name="playing">Playing</string>
+
+    <string name="new_video_on_pika">had a new song:</string>
+    <string name="copied_link">Copied link</string>
+
+    <string name="write_comment">Write a comment</string>
+
+    <string name="copy">Copy</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <string name="word">Vocabulary</string>
+    <string name="kanji">Kanji</string>
+    <string name="sentence">Sentence</string>
+    <string name="image">Image</string>
+    <string name="redraw">Redraw</string>
+    <string name="examples">Example </string>
+    <string name="mean">Mean: %s</string>
+    <string name="on">On: %s</string>
+    <string name="kun">Kun: %s</string>
+    <string name="strokeCount">Number of strokes: %s</string>
+    <string name="levelJLPT">Level JLPT: %s</string>
+
+    <!--Conjugation verb table detail search-->
+    <string name="verbTable_1">Dictionary (辞書)</string>
+    <string name="verbTable_2">Past (た)</string>
+    <string name="verbTable_3">Negative (未然)</string>
+    <string name="verbTable_4">Polite (丁寧)</string>
+    <string name="verbTable_5">te (て)</string>
+    <string name="verbTable_6">Potential (可能)</string>
+    <string name="verbTable_7">Passive (受身)</string>
+    <string name="verbTable_8">Causative (使役)</string>
+    <string name="verbTable_9">Passive Causative (使役受身)</string>
+    <string name="verbTable_10">Conditional (条件)</string>
+    <string name="verbTable_11">Imperative (命令)</string>
+    <string name="verbTable_12">Volitional (意向)</string>
+    <string name="verbTable_13">Prohibition (禁止)</string>
+
+    <string name="color_1" translatable="false">#F44336</string>
+    <string name="color_2" translatable="false">#9C27B0</string>
+    <string name="color_3" translatable="false">#2196F3</string>
+    <string name="color_4" translatable="false">#CDDC39</string>
+    <string name="color_5" translatable="false">#FFC107</string>
+    <string name="color_6" translatable="false">#795548</string>
+    <string name="color_7" translatable="false">#9E9E9E</string>
+    <string name="color_8" translatable="false">#EF5350</string>
+    <string name="color_9" translatable="false">#AB47BC</string>
+    <string name="color_10" translatable="false">#42A5F5</string>
+    <string name="color_11" translatable="false">#4CAF50</string>
+    <string name="color_12" translatable="false">#CDDC39</string>
+    <string name="color_13" translatable="false">#FFEB3B</string>
+    <string name="color_14" translatable="false">#FF7043</string>
+    <string name="color_15" translatable="false">#BDBDBD</string>
+    <string name="color_16" translatable="false">#FFFF00</string>
+    <string name="color_17" translatable="false">#00E676</string>
+    <string name="color_18" translatable="false">#40C4FF</string>
+    <string name="color_19" translatable="false">#009688</string>
+    <string name="color_20" translatable="false">#2979FF</string>
+
+    <string name="text_conjugate_verb_table">Conjugation verb table:</string>
+    <string name="mazii_dictionary">Mazii Dictionary</string>
+    <string name="auto_translate">Auto translation</string>
+    <string name="synonym_of"><![CDATA[Synonym of: <b>%s</b>]]></string>
+
+    <string name="press_back_once_again">Press back one more time to exit</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="share_on_facebook">Post to Facebook</string>
+    <string name="copy_link">Copy link</string>
+    <string name="different">Others</string>
+
+    <string name="you_like_this_video">You liked this video</string>
+    <string name="likes">likes</string>
+    <string name="like">like</string>
+    <string name="you_and_other">You and %d other</string>
+    <string name="you_and_others">You and %d others</string>
+    <string name="comments">%d comments</string>
+    <string name="comment_">%d comment</string>
+
+    <string name="year_ago">year ago</string>
+    <string name="years_ago">years ago</string>
+    <string name="month_ago">month ago</string>
+    <string name="months_ago">months ago</string>
+    <string name="day_ago">day ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="minute_ago">minute ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="second_ago">second ago</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="just_now">just now</string>
+
+    <string name="jlpt_n5">JLPT N5</string>
+    <string name="jlpt_n4">JLPT N4</string>
+    <string name="jlpt_n3">JLPT N3</string>
+    <string name="jlpt_n2">JLPT N2</string>
+    <string name="jlpt_n1">JLPT N1</string>
+
+    <string name="lang">jaen</string>
+    <string name="choose_language">Select language</string>
+    <string name="language_code">en</string>
+    <string name="vn">Vietnamese</string>
+    <string name="en">English</string>
+    <string name="jp">Japanese</string>
+    <string name="id">Indonesian</string>
+
+    <string name="history_search">Search history</string>
+    <string name="hot_keyword">Hot keywords</string>
+    <string name="buy_premium">Upgrade Premium</string>
+    <string name="Upgraded">Upgraded</string>
+    <string name="expiration_date">Expiration date: %s</string>
+    <string name="premium_forever">Premium Forever</string>
+    <string name="premium_6_month">Premium 06 months</string>
+    <string name="no_ads">Disable ads</string>
+
+    <string name="base64EncodedPublicKey" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgASqM+5qXImGdG3jMgwhVzYsAdkTYHwkr5Uika6Me9Pc81/DuCnQq8v6UJbKZGg+PqDRg/Zm25B1QKQxT19kHYk4vBsJTZRcGmhgSqV70r9FIzffNTQ8z+2TUjzl6iQHkBzq3WQEjrzG6M+8ao6UWl1XDc4aAoqEoXOHC8gC908FxVRNWgOzb75IKQ2MRFj9r0BaEYgWaaswX6xnBA/Nik9uw06ojiOsuqJ3Pwwaff6mYLFuZYH5Su/NX/Yl5R0+Kja0HTDlqiIBTM0McfwpG8x0aKTCE4HsPFN75cfWmbfcRHh23Rh4znCE0+MDCLOhFLmukbJDv1yWS/SthjPIswIDAQAB</string>
+    <string name="premium_failed_title">Payment failed</string>
+    <string name="premium_upgrade_successful_title">Payment successfully made!</string>
+    <string name="premium_successful_desc">Congratulations, you are a premium account now, keep enjoying the app.</string>
+
+    <string name="translation_not_available">This translation is not available yet</string>
+    <string name="contribute_translation">Do you want to contribute %s lyrics for this song?</string>
+    <string name="complete_translation">Complete translation</string>
+    <string name="complete_percent">You have already translated %s of the <b>%s</b> lyrics. Do you want to complete your translation?</string>
+    <string name="complete_trans">You have already translated %s of the <b>%s</b> lyrics of %s. Do you want to complete translation?</string>
+    <string name="translate_now">Translate now</string>
+
+    <string name="anime_continue">Recently played Anime</string>
+    <string name="anime_new">New Anime</string>
+    <string name="anime_hot">Hot Anime</string>
+    <string name="anime_album">Album Anime</string>
+    <string name="anime_random">Random Anime</string>
+    <string name="play_random_press">Press play randomly to refresh yourself</string>
+
+    <string name="title_rate">Do you love PiPop?</string>
+    <string name="content_rate">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thank you for your support!</string>
+    <string name="later">Remind me later</string>
+    <string name="no_thanks">No, Thanks</string>
+    <string name="rate_now">Rate now</string>
+    <string name="no_result">Sorry, no results for this keyword.\n Recommend for you</string>
+
+    <string name="top_week">Week</string>
+    <string name="top_month">Month</string>
+    <string name="all">All</string>
+
+    <string name="new_version">New version</string>
+    <string name="new_version_content">Pipop has a new version. Do you want to update now?</string>
+    <string name="update_now">Update now</string>
+
+    <string name="select_language">Select language</string>
+    <string name="language_code_2">en</string>
+    <string name="device_language">Device language</string>
+    <string name="selecet_theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="saved_playlist">Playlist</string>
+    <string name="create_new_playlist">Create new playlist</string>
+    <string name="save_to_playlist">Save to playlist</string>
+    <string name="enter_list_title">Enter playlist name…</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="create_playlist">Create</string>
+    <string name="default_playlist_title" translatable="false">Playlist no.</string>
+    <string name="no_image" translatable="false">KhongImageCoHihi</string>
+    <string name="added_to_playlist">Saved to %s</string>
+    <string name="rename">Rename</string>
+    <string name="delete_playlist_confirm">Do you want to delete this playlist?</string>
+    <string name="delete_succesfully">%s has been removed</string>
+    <string name="no_playlist">There is no playlist</string>
+    <string name="no_playlist_hint">Watch videos and save to your playlists</string>
+    <string name="delete_video_confirm">Do you want to remove this video?</string>
+    <string name="no_video">No videos</string>
+    <string name="video_1">1 video</string>
+    <string name="video_many">videos</string>
+
+    <!--Watch later-->
+    <string name="already_been_saved">Saved to watch later</string>
+    <string name="saved_to_watch_later">Saved to watch later</string>
+    <string name="save_to_watch_later">Save to Watch later</string>
+</resources>

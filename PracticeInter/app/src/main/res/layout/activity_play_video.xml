@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:id="@+id/fragment_youtube"
+        android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_below="@id/fragment_youtube"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorwhite"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Widget.AppCompat.Light.ActionBar.Solid">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <RelativeLayout
+                android:id="@+id/title_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?android:attr/actionBarSize"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_name_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="12dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorblack"/>
+
+                    <TextView
+                        android:id="@+id/tv_name_singer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_12"
+                        android:layout_marginRight="@dimen/margin_12"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:textColor="@color/colorblack"
+                        android:textSize="@dimen/textSize14" />
+                </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:gravity="center_vertical"
+    android:layout_alignParentRight="true">
+<ImageView
+    android:id="@+id/add_playlist"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:layout_marginLeft="15dp"
+    android:src="@drawable/add_list"/>
+    <ImageView
+        android:id="@+id/add_like"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/add_love"/>
+    <ImageView
+        android:id="@+id/add_more"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ellipsis"/>
+</LinearLayout>
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+<android.support.v4.view.ViewPager
+    android:id="@+id/view_detail_video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/padding_32"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+</android.support.v4.view.ViewPager>
+        <android.support.design.widget.TabLayout
+        android:id="@+id/tabs_video_detail"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="25dp"
+        app:tabBackground="@drawable/bogoc"
+            app:elevation="0dp"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="0dp"
+            app:tabMode="fixed"
+            app:tabPaddingEnd="0dp"
+            app:tabPaddingStart="0dp"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            />
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

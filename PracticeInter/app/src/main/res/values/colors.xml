@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorback">#F2F6FA</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorline">#D4D9DD</color>
+    <color name="colorgray">#8A8C8E</color>
+    <color name="colerrange">#FF9200</color>
+    <color name="colorgreen">#3AC14E</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack_4">#303030</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPopup">#f2f2f2</color>
+    <color name="colorWhite_2">#a0ffffff</color>
+    <color name="colorTextWhite">#ffffff</color>
+    <color name="colorTextRed">#f2382f</color>
+    <color name="colorTextGray">#737373</color>
+    <color name="colorTextHint">#d7d9d9</color>
+
+    <color name="toolbar_register">#efefef</color>
+
+    <color name="colorGray">#acacac</color>
+    <color name="tab_unchecked">#7c7c7c</color>
+    <color name="colorTint3">#1D1D1B</color>
+    <color name="colorBtnConfirmBorder">#817c7c7c</color>
+    <!--fragment watch -->
+    <color name="colorBackground">#e2e2e2</color>
+    <color name="colorToolbarDark">#1c1c1c</color>
+    <color name="colorBackground_v2">#f4f4f4</color>
+    <color name="colorTextMore">#ef8e8e8e</color>
+    <color name="colorTextBlack">#393939</color>
+    <color name="colorBlack_3">#83000000</color>
+    <color name="colorDifficult">#b32100</color>
+    <color name="colorEasy">#027b00</color>
+    <color name="colorMedium">#ff6a00</color>
+
+    <color name="colorBlue">#1086c1</color>
+    <color name="colorBlue_2">#9db7e4ff</color>
+
+    <color name="colorTextDefault">#525252</color>
+    <color name="colorTextDefaultNight">#FFFFFF</color>
+    <color name="colorWordMatchesNight">#FF9800</color>
+    <color name="colorKindMatches">#A32B2E</color>
+    <color name="colorWordMatches">#F44336</color>
+    <color name="colorKindMatchesNight">#FFB74D</color>
+    <color name="colorMeanMatches">#2196F3</color>
+    <color name="colorMeanMatchesNight">#4DD0E1</color>
+
+    <color name="colorSplash">#FF8101</color>
+
+    <color name="colorTransparent">@android:color/transparent</color>
+
+    <color name="colorTint2">#737373</color>
+    <color name="colorTint">#3b4340</color>
+    <color name="colorTint4">#c8404040</color>
+    <color name="colorTintBg">#cacaca</color>
+    <color name="colorHolderTint">@android:color/transparent</color>
+    <!--<color name="colorTint">#FF0000</color>-->
+
+    <!--Darkmode-->
+    <color name="colorPrimary_Yami">#0C0C0C</color>
+    <color name="colorPrimaryDark_Yami">#000000</color>
+
+    <color name="colorAccent_Yami">#F77502</color>
+    <color name="colorBlack_4_Yami">#D8D8D8</color>
+    <!--<color name="colorBlack_4_Yami">#FFEB3B</color>-->
+    <color name="colorTextWhite_Yami">#000000</color>
+    <color name="colorTextGray_Yami">#9C9C9C</color>
+    <color name="colorTextHint_Yami">#494747</color>
+
+    <color name="toolbar_register_Yami">#101010</color>
+
+    <color name="colorGray_Yami">#535353</color>
+
+    <!--fragment watch -->
+    <color name="colorBackground_Yami">#1E1E1E</color>
+    <color name="colorBackground_v2_Yami">#141414</color>
+    <color name="colorTextBlack_Yami">#CACACA</color>
+
+    <color name="colorBlue_2_Yami">#9D1F2849</color>
+
+
+    <color name="colorVector_Yami">#C4BCBF</color>
+
+
+    <color name="colorWhite_2_Yami">#a01b1b1b</color>
+    <color name="colorPopup_Yami">#222222</color>
+    <color name="colorWhite_Yami">#1B1B1B</color>
+    <color name="colorTint2_Yami">#8C8C8C</color>
+    <color name="colorTint3_Yami">#E2E2E4</color>
+    <color name="colorTint_Yami">#9AB3AE</color>
+    <color name="colorTint4_Yami">#C7C0C0C0</color>
+    <color name="colorTintBg_Yami">#303030</color>
+    <color name="colorBtnConfirmBorder_Yami">#82838383</color>
+    <!--<color name="colorHolderTint_Yami">#77B4A6</color>-->
+    <color name="colorHolderTint_Yami">#6D857C</color>
+    <color name="unclickable_button_accent">#40F9861C</color>
+    <color name="colorTextMore_Yami">#ef8e8e8e</color>
+
+    <color name="colorBothTheme">#848484</color>
+</resources>

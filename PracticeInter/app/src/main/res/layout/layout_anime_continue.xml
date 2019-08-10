@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_8"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_12"
+    android:background="@color/colorwhite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_12"
+        android:layout_marginBottom="@dimen/margin_12"
+        android:text="RECENtLY PLAYED ANIME"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_anime_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_4"
+        android:visibility="gone"
+        app:layoutManager="android.support.v7.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:ignore="RtlSymmetry,UnusedAttribute" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_holder_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_8"
+            android:src="@drawable/ic_clock"
+          />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/padding_16"
+            android:paddingTop="@dimen/padding_8"
+            android:paddingRight="@dimen/padding_16"
+            android:paddingBottom="@dimen/padding_8"
+            android:text="Sign in to access  videos that you've watched or saved"
+            android:textColor="@color/colorTextGray" />
+
+        <TextView
+            android:id="@+id/btn_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_8"
+            android:background="@drawable/bg_button_register"
+            android:paddingLeft="@dimen/padding_24"
+            android:paddingTop="@dimen/padding_6"
+            android:paddingRight="@dimen/padding_24"
+            android:paddingBottom="@dimen/padding_6"
+            android:text="Log in"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize13"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!--<include layout="@layout/place_holder_anime_continue" />-->
+
+</LinearLayout>

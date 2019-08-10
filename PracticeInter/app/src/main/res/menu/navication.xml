@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/video"
+    android:title="Video"
+    android:icon="@drawable/youtube">
+</item>
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/user">
+
+    </item>
+    <item
+        android:id="@+id/news"
+        android:title="News Feed"
+        android:icon="@drawable/newspaper">
+
+    </item>
+    <item
+        android:icon="@drawable/ellipsis"
+        android:title="More"
+        android:id="@+id/more">
+    </item>
+</menu>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentAnime">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_16">
+
+                <FrameLayout
+                    android:id="@+id/content_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/colorWhite">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/view_pager_indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/padding_8"
+                    android:paddingBottom="@dimen/padding_8"
+                    android:background="@color/colorwhite">
+
+                    <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+                        android:id="@+id/layout_ripplepulse"
+                        android:layout_width="88dp"
+                        android:layout_height="88dp"
+                        android:layout_marginTop="@dimen/margin_4"
+                        android:layout_marginBottom="@dimen/margin_4"
+                        android:clipChildren="false"
+                        ripple:duration="2000"
+                        ripple:endRadius="44dp"
+                        ripple:rippleColor="@color/colorAccent"
+                        ripple:rippleType="fill"
+                        ripple:startRadius="20dp"
+                        ripple:strokeWidth="2dp">
+
+                        <ImageView
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_shuffle" />
+
+                    </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_4"
+                        android:layout_marginBottom="@dimen/margin_4"
+                        android:text="Random anime"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:gravity="center_horizontal"
+                        android:text="Press play randomly to refresh yourself"
+                        android:textColor="@color/colorTextGray" />
+
+                </LinearLayout>
+
+                <include layout="@layout/layout_anime_continue" />
+
+                <include layout="@layout/layout_anime_album" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/padding_12"
+                    android:paddingBottom="@dimen/padding_12"
+                    android:background="@color/colorwhite">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Hot Anime"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize16"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/margin_8"
+                        android:background="@drawable/bg_button_gray"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_week"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/padding_16"
+                            android:paddingTop="@dimen/padding_4"
+                            android:paddingRight="@dimen/padding_16"
+                            android:paddingBottom="@dimen/padding_4"
+                            android:text="Top week"
+                            android:textColor="@color/colorTextGray"
+                            android:textSize="@dimen/textSize16"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/bg_button_gray_v3" />
+
+                        <TextView
+                            android:id="@+id/tv_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/padding_16"
+                            android:paddingTop="@dimen/padding_4"
+                            android:paddingRight="@dimen/padding_16"
+                            android:paddingBottom="@dimen/padding_4"
+                            android:text="Top month"
+                            android:textColor="@color/colorTextGray" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/bg_button_gray_v3" />
+
+                        <TextView
+                            android:id="@+id/tv_all"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/padding_16"
+                            android:paddingTop="@dimen/padding_4"
+                            android:paddingRight="@dimen/padding_16"
+                            android:paddingBottom="@dimen/padding_4"
+                            android:text="All"
+                            android:textColor="@color/colorTextGray" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/layout_anime_hot"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+                            <com.yarolegovich.discretescrollview.DiscreteScrollView
+                                android:id="@+id/rv_anime_hot"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:dsv_orientation="horizontal" />
+                            <TextView
+                                android:id="@+id/tv_name_ja"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center_horizontal"
+                                android:maxLines="1"
+                                android:paddingLeft="@dimen/padding_12"
+                                android:paddingRight="@dimen/padding_12"
+                                android:textColor="@color/colorTextGray"
+                                android:textSize="@dimen/textSize16"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_name_sub"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center_horizontal"
+                                android:paddingLeft="@dimen/padding_12"
+                                android:paddingRight="@dimen/padding_12"
+                                android:textColor="@color/colorTextGray" />
+
+                            <TextView
+                                android:id="@+id/btn_seen_more_anime_hot"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:paddingLeft="@dimen/padding_16"
+                                android:paddingTop="@dimen/padding_4"
+                                android:paddingRight="@dimen/padding_16"
+                                android:paddingBottom="@dimen/padding_4"
+                                android:text="See more"
+                                android:textColor="@color/colorTextGray"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <include layout="@layout/place_holder_anime_hot" />
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:background="@color/colorwhite"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/padding_12">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_12"
+                        android:text="New Anime"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize16"
+                        android:textStyle="bold" />
+                    <include layout="@layout/item_anime_new_1"/>
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rv_anime_new"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:nestedScrollingEnabled="false"
+                            android:paddingTop="@dimen/padding_16"
+                            android:paddingBottom="@dimen/padding_64"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+                        <include layout="@layout/place_holder_anime_new" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

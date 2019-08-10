@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/margin_10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_6">
+    <ImageView
+    android:id="@+id/img_item_related"
+    android:layout_width="150dp"
+    android:layout_height="90dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/ronaldo"/>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/cv_img"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="@dimen/margin_12">
+
+        <TextView
+            android:id="@+id/tv_name_related"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên video tiếng nhật" />
+
+        <TextView
+            android:id="@+id/tv_name_singer_related"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên tác giả" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_item_menu"
+            android:layout_width="@dimen/margin_20"
+            android:layout_height="@dimen/margin_20"
+            android:src="@drawable/item_menu"
+            android:layout_gravity="center_horizontal"
+            />
+<android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="@dimen/margin_4"
+    >
+        <TextView
+            android:id="@+id/tv_item_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorgreen"
+            android:paddingLeft="@dimen/margin_4"
+            android:paddingRight="@dimen/margin_4"
+            android:textColor="@color/colorwhite"
+            android:text="Easy"/>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>
