@@ -43,14 +43,14 @@ public class RecyclerViewAdapter1 extends RecyclerView.Adapter<RecyclerViewAdapt
                 .error(R.drawable.error)
                 .into(rViewHolder.img);
         rViewHolder.txt.setText(list.get(i).getName());
-        BitmapDrawable drawable = (BitmapDrawable) rViewHolder.img.getDrawable();
-        if(drawable!=null){
-             bitmap = drawable.getBitmap();
-        }else{
-            bitmap = BitmapFactory.decodeResource(context.getResources(),R.drawable.pipop);
-        }
-        Bitmap circularBitmap = ImageConverter.getRoundedCornerBitmap(bitmap, 100);
-        rViewHolder.img.setImageBitmap(circularBitmap);
+//        BitmapDrawable drawable = (BitmapDrawable) rViewHolder.img.getDrawable();
+//        if(drawable!=null){
+//             bitmap = drawable.getBitmap();
+//        }else{
+//            bitmap = BitmapFactory.decodeResource(context.getResources(),R.drawable.pipop);
+//        }
+//        Bitmap circularBitmap = ImageConverter.getRoundedCornerBitmap(bitmap, 100);
+//        rViewHolder.img.setImageBitmap(circularBitmap);
     }
 
     @Override

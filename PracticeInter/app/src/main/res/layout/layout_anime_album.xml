@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/margin_12"
-        android:text="Album Anime"
+        android:text="@string/anime_album"
         android:textAllCaps="true"
         android:textColor="@color/colorAccent"
         android:textSize="@dimen/textSize16"

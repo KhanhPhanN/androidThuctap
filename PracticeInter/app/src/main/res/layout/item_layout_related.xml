@@ -65,7 +65,7 @@
                                         android:includeFontPadding="false"
                                         android:shadowColor="@android:color/white"
                                         android:shadowRadius="10.0"
-                                        android:text="Up next"
+                                        android:text="@string/continues"
                                         android:textColor="@color/colorWhite"
                                         android:textSize="@dimen/textSize14" />
     </LinearLayout>
@@ -101,7 +101,7 @@
                                 android:layout_centerVertical="true"
                                 android:layout_toLeftOf="@id/iv_search"
                                 android:background="@drawable/bg_search_1"
-                                android:hint="Keywords"
+                                android:hint="@string/search_videos"
                                 android:imeOptions="actionUnspecified"
                                 android:inputType="text"
                                 android:paddingLeft="@dimen/padding_12"

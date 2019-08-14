@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_account"></include>
+<RelativeLayout
+    android:id="@+id/signin_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_profile_4"
+    android:padding="@dimen/padding_16">
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/size_logo_image"
+        android:layout_height="@dimen/size_logo_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:src="@drawable/logopipop"
+        autofit:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/account_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_logo"
+        android:layout_marginLeft="@dimen/margin_32"
+        android:layout_marginRight="@dimen/margin_32"
+        android:gravity="center"
+        android:text="@string/signin_account"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSize16"
+        autofit:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_signin"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_marginLeft="@dimen/margin_32"
+        android:layout_marginRight="@dimen/margin_32"
+        android:layout_marginTop="@dimen/margin_8"
+        android:paddingTop="@dimen/padding_12"
+        android:paddingBottom="@dimen/padding_12"
+        android:background="@drawable/bg_button_register"
+        android:text="@string/register"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_56"
+        android:layout_marginLeft="@dimen/margin_32"
+        android:layout_marginRight="@dimen/margin_32"
+        android:layout_marginTop="@dimen/margin_8"
+        android:paddingTop="@dimen/padding_12"
+        android:paddingBottom="@dimen/padding_12"
+        android:background="@drawable/bg_button_signin"
+        android:text="@string/sign_in"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>
+</RelativeLayout>

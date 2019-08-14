@@ -3,6 +3,7 @@ package com.example.enterc.practiceinter.LoadData;
 import android.os.AsyncTask;
 
 import com.example.enterc.practiceinter.Listener.CallBack;
+import com.example.enterc.practiceinter.Listener.SingerCallBack;
 import com.example.enterc.practiceinter.Model.Singer;
 
 import org.json.JSONArray;
@@ -18,8 +19,8 @@ import okhttp3.Response;
 
 public class loadListSinger extends AsyncTask<String, Void, String>{
     ArrayList<Singer> listFolows;
-    CallBack callBack;
-    public loadListSinger(ArrayList<Singer> listFolows, CallBack callBack) {
+    SingerCallBack callBack;
+    public loadListSinger(ArrayList<Singer> listFolows, SingerCallBack callBack) {
         this.listFolows = listFolows;
         this.callBack   = callBack;
     }
@@ -55,15 +56,19 @@ public class loadListSinger extends AsyncTask<String, Void, String>{
         if(s!=null){
             try {
                 JSONObject object = new JSONObject(s);
-                JSONArray array = object.getJSONArray("ListFolow");
-                for(int i=0;i<array.length();i++){
-                    JSONObject jsonObject = array.getJSONObject(i);
-                    listFolows.add(new Singer(jsonObject.getInt("id_singer"),jsonObject.getString("name"),jsonObject.getString("avatar"), jsonObject.getString("type")));
+                JSONArray jsonArray = object.getJSONArray("ListFolow");
+                ArrayList<Singer> singers = new ArrayList<>();
+                for(int i = 0;i<jsonArray.length();i++)
+                {
+                    JSONObject jsonObject = (JSONObject) jsonArray.get(i);
+                    singers.add(new Singer(jsonObject.getInt("id_singer"),jsonObject.getString("name"),jsonObject.getString("avatar"),jsonObject.getString("type" )));
                 }
-                callBack.execute();
+                callBack.execute(singers);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
+
+
         }
 
         super.onPostExecute(s);

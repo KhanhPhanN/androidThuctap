@@ -15,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/margin_12"
         android:layout_marginBottom="@dimen/margin_12"
-        android:text="RECENtLY PLAYED ANIME"
+        android:text="@string/anime_continue"
         android:textAllCaps="true"
         android:textColor="@color/colorAccent"
         android:textSize="@dimen/textSize16"
@@ -59,7 +59,7 @@
             android:paddingTop="@dimen/padding_8"
             android:paddingRight="@dimen/padding_16"
             android:paddingBottom="@dimen/padding_8"
-            android:text="Sign in to access  videos that you've watched or saved"
+            android:text="@string/signin_history"
             android:textColor="@color/colorTextGray" />
 
         <TextView
@@ -73,7 +73,7 @@
             android:paddingTop="@dimen/padding_6"
             android:paddingRight="@dimen/padding_24"
             android:paddingBottom="@dimen/padding_6"
-            android:text="Log in"
+            android:text="@string/sign_in"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/textSize13"
             android:textStyle="bold" />

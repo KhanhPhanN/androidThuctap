@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticeInter</string>
+
+
+        <!--item-navigation-bottom-->
+        <string name="video">ビデオ</string>
+        <string name="anime">アニメ</string>
+        <string name="account">アカウント</string>
+        <string name="pikafeed">ニュースフィード</string>
+        <string name="notify">通知</string>
+        <string name="fanpage">ファンページ</string>
+        <string name="more">もっと</string>
+
+        <!--detail video-->
+        <string name="listen">歌詞</string>
+        <string name="vocabulary">単語</string>
+        <string name="relate">関連する</string>
+        <string name="not_logged_in">続行するにはログインしてください</string>
+        <string name="something_wrong">問題が発生しました。しばらくしてからもう一度試してください</string>
+        <string name="save_success">動画を保存しました</string>
+        <string name="remove_my_video_success">保存したビデオを削除する</string>
+        <string name="sure_sign_out">PiPopからログアウトしてよろしいですか？</string>
+        <string name="seen_more_detail_word">詳細な単語を見るためにサインインする</string>
+        <string name="signin_history">視聴または保存した動画にアクセスするには、ログインしてください</string>
+        <string name="no_history">動画の視聴履歴はまだありません</string>
+
+        <string name="search">サーチ</string>
+        <string name="update_profile">プロフィールを更新する</string>
+        <string name="search_videos">キーワード</string>
+        <string name="top_new_song">最新のトップビデオ</string>
+        <string name="see_more">続きを見る</string>
+        <string name="top_favorite">お気に入りの人気動画</string>
+        <string name="text_xem_tiep">歴史</string>
+        <string name="top_video">一番見た動画</string>
+        <string name="list_video">曲リスト</string>
+        <string name="album_hot">アルバムホット</string>
+        <string name="pi_chart">PiChart</string>
+
+        <!-- Fragment setting -->
+        <string name="off">オフ</string>
+        <string name="replay">リプレイ</string>
+        <string name="continues">次に</string>
+        <string name="play_next">次に</string>
+        <string name="show_furigana">ふりがなを表示</string>
+        <string name="show_lyric_ja">日本語を表示</string>
+        <string name="show_romaji">ローマ字を表示</string>
+        <string name="show_lyric_sub">翻訳を表示</string>
+        <string name="follow">フォローする</string>
+        <string name="followed">フォロー中</string>
+        <string name="unfollow">フォローを解除</string>
+        <string name="report_user">報告</string>
+        <string name="report_content">レポート内容</string>
+        <string name="do_follow">フォローしますか %s ?</string>
+        <string name="do_unfollow">フォローを解除 %s?</string>
+        <string name="no_following">フォローしていない</string>
+        <string name="no_follower">フォロワーなし</string>
+
+        <string name="easy">簡単</string>
+        <string name="difficult">難しい</string>
+        <string name="medium">ミディアム</string>
+        <string name="loading">ロード中…</string>
+        <string name="no_connection">インターネット接続なし\n プルダウンして更新する</string>
+        <string name="no_connect">インターネット接続なし\n リフレッシュするために触れる</string>
+        <string name="loading_list_view_error">リストの動画を取得できません\n リフレッシュするために触れる</string>
+        <string name="loading_lyric_error">歌詞が取れない\n プルダウンして更新する</string>
+        <string name="loading_vocabulary_error">語彙が取れない\n リフレッシュするために触れる</string>
+        <string name="no_translate">翻訳は利用できません</string>
+        <string name="load_error">何かがうまくいかなかった\n リフレッシュするために触れる</string>
+        <string name="no_translations">翻訳なし</string>
+        <string name="no_relate">関連曲はありません</string>
+        <string name="empty">データなし.</string>
+        <string name="empty_search">データなし\n 探しているものが見つかりません</string>
+        <string name="no_vocabulary">語彙なし</string>
+        <string name="no_notify">通知なし!</string>
+        <string name="loading_notify_error">通知を受け取ることができません。\n リフレッシュするために触れる</string>
+        <string name="no_signin_notity">あなたはログインしていません。\n 通知を受けるにはログインしてください!</string>
+        <string name="loading_list_translate_error">リストビデオを取得できません。\n プルダウンして更新する</string>
+        <string name="no_comment">最初にコメントする</string>
+        <string name="empty_user_trans">翻訳はありません</string>
+
+        <string name="signin_account">ログインしてPiPopの全機能を使い始める</string>
+        <string name="register">登録</string>
+        <string name="sign_in">ログイン</string>
+        <string name="sign_out">ログアウト</string>
+        <string name="or">または</string>
+        <string name="next">続ける</string>
+        <string name="finish">終了</string>
+        <string name="save">保存する</string>
+        <string name="profile_update">プロファイル編集</string>
+        <string name="profile">プロフィール</string>
+        <string name="profile_update_info">プロファイル編集</string>
+        <string name="register_facebook">FBに登録する</string>
+        <string name="register_google">Googleに登録する</string>
+        <string name="register_email">メールで登録</string>
+        <string name="account_not_correct">メールアドレスまたはパスワードが正しくありません。もう一度お試しください。</string>
+        <string name="register_agree_text">PiPopに登録することであなたは同意し、利用規約に拘束されることに同意したことになります &lt;a href="https://pipop.net/disclaim">規約と条件&lt;/a> </string>
+
+        <string name="sign_in_facebook">FBでログイン</string>
+        <string name="sign_in_google">Googleでログイン</string>
+        <string name="sign_in_email_name"><font size="13">あなたの名前を入力してください</font></string>
+        <string name="sign_in_email_account"><font size="13">メールアドレスを入力</font></string>
+        <string name="invalid_email">メールを無効にする</string>
+        <string name="sign_in_email_password"><font size="13">パスワードを入力してください</font></string>
+        <string name="enter_password">パスワードを入力してください</string>
+        <string name="invalid_password">パスワードは6文字以上にしてください</string>
+        <string name="sign_in_email_submit_password"><font size="13">パスワードを認証する</font></string>
+        <string name="match_submit_password">パスワードが一致しません</string>
+        <string name="fogot_password">パスワードをお忘れですか。</string>
+        <string name="email_already_exists">メールは既に存在します</string>
+        <string name="enter_full_info">フォームに記入する必要があります!</string>
+        <string name="signin_error">ログインに失敗しました。しばらくしてからもう一度お試しください!</string>
+        <string name="register_success">登録成功</string>
+        <string name="register_error">登録に失敗しました。しばらくしてからもう一度お試しください!</string>
+        <string name="no_internet">インターネット接続なし</string>
+        <string name="error">エラー！ 後でもう一度やり直してください</string>
+        <string name="follow_success">フォローしました</string>
+        <string name="unfollow_success">フォローを解除しました</string>
+        <string name="update_success">更新成功</string>
+        <string name="comment_fail">コメントは失敗しました。しばらくしてからもう一度お試しください</string>
+        <string name="see_list">リストを見る</string>
+
+        <string name="send_video">PiPopにビデオを送る</string>
+        <string name="enter_link_youtube">YouTubeリンクを入力してください</string>
+        <string name="link_youtube_not_valid">YouTubeリンクが無効です。もう一度確認してください。</string>
+        <string name="signin_contribute">PiPopにビデオを送信するにはサインインする必要があります</string>
+        <string name="contribute_success">動画を送信する</string>
+
+        <string name="name">名</string>
+        <string name="what_name">あなたの名前</string>
+        <string name="japanese_level">日本語レベル</string>
+        <string name="sex">性別</string>
+        <string name="birthday">生年月日</string>
+        <string name="badge_viewer">視聴者</string>
+        <string name="song_favorite">好きな曲 :</string>
+        <string name="song_favorite_v2">好きな曲</string>
+        <string name="what_song_favorite">あなたの好きな曲</string>
+        <string name="singer_favorite">好きなアーティスト :</string>
+        <string name="singer_favorite_v2">好きなアーティスト</string>
+        <string name="what_singer_favorite">あなたの好きなアーティスト</string>
+        <string name="more_profile">私について:</string>
+        <string name="more_profile_v2">私について</string>
+        <string name="what_more_profile">私について</string>
+        <string name="following">人をフォロー中</string>
+        <string name="be_follow">フォロワー</string>
+        <string name="video_saved">お気に入りの動画</string>
+        <string name="video_hot">素晴らしい動画</string>
+        <string name="video_translated">翻訳されたビデオ</string>
+        <string name="choose">選ぶ</string>
+        <string name="male">男性</string>
+        <string name="female">女性</string>
+        <string name="unknown">知らない</string>
+        <string name="no_info">情報なし</string>
+        <string name="text_report">エラー報告</string>
+        <string name="text_enter_error">発生したエラー</string>
+        <string name="load_failed">ロード失敗</string>
+        <string name="singer">アーティスト</string>
+        <string name="translator">翻訳者</string>
+        <string name="user">ユーザー</string>
+        <string name="other">バイオグラフィー :</string>
+        <string name="founding">有効日</string>
+        <string name="success">成功しました!</string>
+        <string name="cancel">キャンセル</string>
+        <string name="cancel_2">キャンセル</string>
+        <string name="cancel_3">キャンセル</string>
+        <string name="ok">OK</string>
+        <string name="show">見せる</string>
+        <string name="hide">隠す</string>
+        <string name="share">シェア</string>
+        <string name="share_with">と共有する?</string>
+        <string name="share_video">動画を共有しました</string>
+        <string name="you_want_to">Are you sure you want to</string>
+        <string name="clear">クリア</string>
+        <string name="clear_search">検索履歴を消去する ?</string>
+        <string name="clear_item_search">検索履歴から消去する ?</string>
+        <string name="change_password">パスワードを変更する</string>
+        <string name="change_password_2">パスワードを変更する</string>
+        <string name="password_current">現在のパスワード</string>
+        <string name="password_new">新しいパスワード</string>
+        <string name="submit_password">パスワードを認証する</string>
+        <string name="enter_password_below">以下に新しいパスワードを入力してください</string>
+        <string name="can_not_null">このフィールドを空白のままにすることはできません</string>
+        <string name="password_wrong">間違ったパスワード。 もう一度やり直してください。</string>
+        <string name="success_2">成功しました</string>
+        <string name="change_password_success">パスワード変更に成功</string>
+        <string name="go_homepage">ホームページに戻る</string>
+        <string name="thanks_contribution">ご協力ありがとうございます</string>
+        <string name="go_back">戻る</string>
+
+        <string name="day">日:</string>
+        <string name="month">月:</string>
+        <string name="year">年:</string>
+
+        <string name="name_song">歌の名前</string>
+        <string name="name_singer">アーティストの名前</string>
+        <string name="link_youtube">YouTubeリンク</string>
+        <string name="send">送る</string>
+        <string name="view_translation">翻訳を見る</string>
+        <string name="want_to_quit">あなたはまだあなたの歌詞をPiPopに送っていません。 本当にやめる気？?</string>
+        <string name="no">いいえ</string>
+        <string name="yes">はい</string>
+
+        <!--fragment more-->
+        <string name="text_update_premium">プレミアムバージョンを更新する</string>
+        <string name="text_lh_gop_y">フィードバック</string>
+        <string name="text_danh_gia_ud">私たちを評価してください</string>
+        <string name="text_dieu_khoan_sd">条項</string>
+        <string name="blog">ブログの歌詞</string>
+
+        <string name="update">更新</string>
+        <string name="update_youtube">YouTubeアプリを更新する</string>
+        <string name="update_contain">PiPopでビデオを見るためにYouTubeアプリを更新してください。</string>
+        <string name="watch_want">いつでも見たい</string>
+        <string name="watch_later">後で見るためにビデオを保存してください。 \n あなたのリストはここに表示されます。</string>
+
+        <string name="playing">遊ぶ</string>
+
+        <string name="new_video_on_pika">新しい曲がありました:</string>
+        <string name="copied_link">リンクがコピーされました</string>
+
+        <string name="write_comment">コメントを書く</string>
+
+        <string name="copy">コピーする</string>
+        <string name="copied">クリップボードにコピー</string>
+        <string name="delete">削除する</string>
+        <string name="edit">編集する</string>
+
+        <string name="word">単語</string>
+        <string name="kanji">漢字</string>
+        <string name="sentence">文</string>
+        <string name="image">画像</string>
+        <string name="redraw">再描画</string>
+        <string name="examples">例 </string>
+        <string name="mean">意味: %s</string>
+        <string name="on">音読み: %s</string>
+        <string name="kun">訓読み: %s</string>
+        <string name="strokeCount">ストローク数: %s</string>
+        <string name="levelJLPT">レベル JLPT: %s</string>
+
+        <!--Conjugation verb table detail search-->
+        <string name="verbTable_1">Dictionary (辞書)</string>
+        <string name="verbTable_2">Past (た)</string>
+        <string name="verbTable_3">Negative (未然)</string>
+        <string name="verbTable_4">Polite (丁寧)</string>
+        <string name="verbTable_5">te (て)</string>
+        <string name="verbTable_6">Potential (可能)</string>
+        <string name="verbTable_7">Passive (受身)</string>
+        <string name="verbTable_8">Causative (使役)</string>
+        <string name="verbTable_9">Passive Causative (使役受身)</string>
+        <string name="verbTable_10">Conditional (条件)</string>
+        <string name="verbTable_11">Imperative (命令)</string>
+        <string name="verbTable_12">Volitional (意向)</string>
+        <string name="verbTable_13">Prohibition (禁止)</string>
+
+        <string name="text_conjugate_verb_table">動詞動詞表:</string>
+        <string name="mazii_dictionary">Mazii 辞書</string>
+        <string name="auto_translate">自動翻訳</string>
+        <string name="synonym_of"><![CDATA[の同義語: <b>%s</b>]]></string>
+
+        <string name="press_back_once_again">もう一度押すと終了します</string>
+
+
+        <string name="share_on_facebook">Facebookへ投稿</string>
+        <string name="copy_link">リンクをコピーする</string>
+        <string name="different">その他</string>
+
+        <string name="you_like_this_video">あなたはこのビデオが好きでした</string>
+        <string name="likes">好き</string>
+        <string name="like">好き</string>
+        <string name="you_and_other">あなたと他 %d 人</string><!--あなたと他 %d 人-->
+        <string name="you_and_others">あなたと他 %d 人</string><!--あなたと他 %d 人-->
+        <string name="comments">%d コメント</string>
+        <string name="comment_">%d コメント</string>
+
+        <string name="year_ago">年前</string>
+        <string name="years_ago">年前</string>
+        <string name="month_ago">ヶ月前</string>
+        <string name="months_ago">ヶ月前</string>
+        <string name="day_ago">日前</string>
+        <string name="days_ago">日前</string>
+        <string name="hour_ago">時間前</string>
+        <string name="hours_ago">時間前</string>
+        <string name="minute_ago">分前</string>
+        <string name="minutes_ago">分前</string>
+        <string name="second_ago">秒前</string>
+        <string name="seconds_ago">秒前</string>
+        <string name="just_now">ちょうど今</string>
+
+        <string name="jlpt_n5">JLPT N5</string>
+        <string name="jlpt_n4">JLPT N4</string>
+        <string name="jlpt_n3">JLPT N3</string>
+        <string name="jlpt_n2">JLPT N2</string>
+        <string name="jlpt_n1">JLPT N1</string>
+
+        <string name="lang">jaen</string>
+        <string name="choose_language">言語を選択する</string>
+        <string name="language_code">en</string>
+        <string name="vn">ベトナム人</string>
+        <string name="en">英語</string>
+        <string name="jp">日本人</string>
+        <string name="id">インドネシア人</string>
+
+        <string name="history_search">検索履歴</string>
+        <string name="hot_keyword">注目のキーワード</string>
+        <string name="buy_premium">プレミアムをアップグレード</string>
+        <string name="Upgraded">アップグレード済み</string>
+        <string name="expiration_date">有効期限: %s</string>
+        <string name="premium_forever">プレミアム永遠に</string>
+        <string name="premium_6_month">プレミアム06ヶ月</string>
+        <string name="no_ads">広告を無効にする</string>
+
+        <string name="premium_failed_title">支払いに失敗しました</string>
+        <string name="premium_upgrade_successful_title">支払いが完了しました!</string>
+        <string name="premium_successful_desc">おめでとうございます、あなたは今すぐプレミアムアカウントです、アプリを楽しんでください。</string>
+
+        <string name="translation_not_available">この翻訳はまだ利用できません</string>
+        <string name="contribute_translation">この曲の％s歌詞を投稿しますか？</string>
+        <string name="complete_translation">完全な翻訳</string>
+        <string name="complete_percent">の％sを既に翻訳しました <b>%s</b> 歌詞。翻訳を完了しますか？</string>
+        <string name="complete_trans">の％sを既に翻訳しました<b>%s</b> ％sの歌詞。翻訳を完了しますか？</string>
+        <string name="translate_now">今すぐ翻訳</string>
+
+        <string name="anime_continue">最近プレイしたアニメ</string>
+        <string name="anime_new">新アニメ</string>
+        <string name="anime_hot">ホットアニメ</string>
+        <string name="anime_album">アルバムアニメ</string>
+        <string name="anime_random">ランダムアニメ</string>
+        <string name="play_random_press">ランダムにプレイを押すとリフレッシュできます</string>
+
+        <string name="title_rate">あなたはPiPopが好きですか？</string>
+        <string name="content_rate">あなたがこのアプリを使うのを楽しんでいるなら、あなたはそれを評価するために少し時間をかけてもいいですか？ 1分以上かかりません。 ご支援いただきありがとうございます！</string>
+        <string name="later">後で思い出させる</string>
+        <string name="no_thanks">結構です</string>
+        <string name="rate_now">今評価する</string>
+        <string name="no_result">このキーワードの結果はありません。\n あなたにおすすめ</string>
+
+        <string name="top_week">週間</string>
+        <string name="top_month">月</string>
+        <string name="all">すべて</string>
+
+        <string name="new_version">新しいバージョン</string>
+        <string name="new_version_content">Pipopには新しいバージョンがあります。 今すぐ更新しますか？</string>
+        <string name="update_now">今すぐアップデート</string>
+
+        <string name="select_language">言語を選択する</string>
+        <string name="language_code_2">ja</string>
+        <string name="device_language">デバイスの言語</string>
+        <string name="selecet_theme">テーマ</string>
+        <string name="theme_light">ライト</string>
+        <string name="theme_dark">ダーク</string>
+        <string name="enter_list_title">再生リストの名前を入力…</string>
+        <string name="save_to_playlist">再生リストに保存</string>
+        <string name="create_new_playlist">新しいプレイリストを作成</string>
+        <string name="saved_playlist">再生リスト</string>
+        <string name="create_playlist">作成する</string>
+        <string name="new_playlist">新しいプレイリスト</string>
+        <string name="added_to_playlist">%s に追加しました</string>
+        <string name="rename">リネーム</string>
+        <string name="delete_playlist_confirm">このプレイリストを削除しますか？</string>
+        <string name="delete_succesfully">%s は削除されました</string>
+        <string name="no_playlist">プレイリストはありません</string>
+        <string name="no_playlist_hint">ビデオを見てプレイリストに保存する</string>
+        <string name="delete_video_confirm">この動画を削除しますか？</string>
+        <string name="no_video">動画はありません</string>
+        <string name="video_1">1 本の動画</string>
+        <string name="video_many">本の動画</string>
+        <string name="save_to_watch_later">[後で見る] に保存</string>
+        <string name="saved_to_watch_later">[後で見る] に追加しました</string>
+        <string name="already_been_saved">[後で見る] に追加しました</string>
+    <string name="key_youtube_api">AIzaSyA5Z1muPiy_PPdpLHll1DYB0hpDDXadY84</string>
+
+</resources>

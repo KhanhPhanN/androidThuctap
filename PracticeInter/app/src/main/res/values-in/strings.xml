@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticeInter</string>
+
+<!--item-navigation-bottom-->
+<string name="video">Video</string>
+<string name="anime">Anime</string>
+<string name="account">Rekening</string>
+<string name="pikafeed">Papan pesan</string>
+<string name="notify">Pemberitahuan</string>
+<string name="fanpage">Fanpage Facebook</string>
+<string name="more">Lebih</string>
+
+<!--detail video-->
+<string name="listen">Lirik</string>
+<string name="vocabulary">Kosa kata</string>
+<string name="relate">Terkait</string>
+<string name="not_logged_in">Silahkan masuk untuk melanjutkan</string>
+<string name="something_wrong">Terjadi kesalahan, coba lagi nanti</string>
+<string name="save_success">Video yang berhasil disimpan</string>
+<string name="remove_my_video_success">Hapus video yang disimpan dengan sukses</string>
+<string name="sure_sign_out">Anda yakin ingin keluar dari PiPop?</string>
+<string name="seen_more_detail_word">Masuk untuk melihat kata detail</string>
+<string name="signin_history">Login untuk mengakses video yang Anda tonton atau yang telah disimpan</string>
+<string name="no_history">Anda belum melihat riwayat penayangan video</string>
+
+<string name="search">Pencarian</string>
+<string name="update_profile">Memperbaharui profil</string>
+<string name="search_videos">Kata kunci</string>
+<string name="top_new_song">Video terbaru teratas</string>
+<string name="see_more">Lihat lebih banyak</string>
+<string name="top_favorite">Video favorit teratas</string>
+<string name="text_xem_tiep">Sejarah</string>
+<string name="top_video">Video yang paling banyak ditonton</string>
+<string name="list_video">Daftar lagu</string>
+<string name="album_hot">Album panas</string>
+<string name="pi_chart">PiChart</string>
+
+<!-- Fragment setting -->
+<string name="off">Mati</string>
+<string name="replay">Ulangan</string>
+<string name="continues">Berikutnya</string>
+<string name="play_next">Berikutnya</string>
+<string name="show_furigana">Tampilkan Furigana</string>
+<string name="show_lyric_ja">Tampilkan Jepang</string>
+<string name="show_romaji">Tampilkan Romaji</string>
+<string name="show_lyric_sub">Tampilkan terjemahan</string>
+<string name="follow">Mengikuti</string>
+<string name="followed">Berikut</string>
+<string name="unfollow">Berhenti mengikuti</string>
+<string name="report_user">Melaporkan</string>
+<string name="report_content">Laporkan konten</string>
+<string name="do_follow">Apakah Anda ingin mengikuti %s?</string>
+<string name="do_unfollow">Berhenti mengikuti %s?</string>
+<string name="no_following">Tidak mengikuti siapa pun</string>
+<string name="no_follower">Tidak ada pengikut</string>
+
+<string name="easy">Mudah</string>
+<string name="difficult">Sulit</string>
+<string name="medium">Medium</string>
+<string name="loading">Pemuatan…</string>
+<string name="no_connection">Tidak ada koneksi internet\n Tarik ke Bawah untuk Segarkan</string>
+<string name="no_connect">Tidak ada koneksi internet\n Sentuh untuk Segarkan</string>
+<string name="loading_list_view_error">Tidak bisa mendapatkan daftar video\n Sentuh untuk Segarkan</string>
+<string name="loading_lyric_error">Tidak bisa mendapatkan lirik\n Tarik ke Bawah untuk Segarkan</string>
+<string name="loading_vocabulary_error">Tidak bisa mendapatkan kosakata\n Sentuh untuk Segarkan</string>
+<string name="no_translate">Terjemahan tidak tersedia</string>
+<string name="load_error">Ada yang salah\n Sentuh untuk Segarkan</string>
+<string name="no_translations">Tidak ada terjemahan</string>
+<string name="no_relate">Tidak ada lagu terkait</string>
+<string name="empty">Tidak ada data.</string>
+<string name="empty_search">Tidak ada data\n Tidak dapat menemukan apa yang Anda cari</string>
+<string name="no_vocabulary">Tidak ada kosakata</string>
+<string name="no_notify">Tanpa pemberitahuan!</string>
+<string name="loading_notify_error">Tidak bisa mendapatkan notifikasi.\n Sentuh untuk Segarkan</string>
+<string name="no_signin_notity">Anda belum masuk.\n Silakan masuk untuk mendapatkan notifikasi!</string>
+<string name="loading_list_translate_error">Tidak bisa mendapatkan daftar video.\n Tarik ke Bawah untuk Segarkan</string>
+<string name="no_comment">Jadilah yang pertama berkomentar</string>
+<string name="empty_user_trans">Terjemahan tidak tersedia</string>
+
+<string name="signin_account">Masuk ke untuk mulai menggunakan seluruh fitur PiPop</string>
+<string name="register">Daftar</string>
+<string name="sign_in">Masuk</string>
+<string name="sign_out">Keluar</string>
+<string name="or">atau</string>
+<string name="next">Terus</string>
+<string name="finish">Selesai</string>
+<string name="save">Menyimpan</string>
+<string name="profile_update">Edit profil</string>
+<string name="profile">Profil</string>
+<string name="profile_update_info">Edit profil</string>
+<string name="register_facebook">Daftar dengan FB</string>
+<string name="register_google">Daftar dengan Google</string>
+<string name="register_email">Daftar dengan Email</string>
+<string name="account_not_correct">Email atau kata sandi salah, silakan coba lagi. </string>
+<string name="register_agree_text">Dengan mendaftar dengan PiPop, Anda menerima dan setuju untuk terikat dengan syarat dan ketentuan &lt;a href="https://pipop.net/disclaim">syarat dan ketentuan&lt;/a> </string>
+
+<string name="sign_in_facebook">Masuk dengan FB</string>
+<string name="sign_in_google">Masuk dengan Google</string>
+<string name="sign_in_email_name"><font size="13">Masukkan nama Anda</font></string>
+<string name="sign_in_email_account"><font size="13">Masukkan email Anda</font></string>
+<string name="invalid_email">Email tidak valid</string>
+<string name="sign_in_email_password"><font size="13">Masukkan kata sandi Anda</font></string>
+<string name="enter_password">Masukkan kata sandi Anda</string>
+<string name="invalid_password">Kata sandi Anda harus setidaknya 6 karakter</string>
+<string name="sign_in_email_submit_password"><font size="13">Konfirmasi sandi</font></string>
+<string name="match_submit_password">Kata sandi tidak cocok</string>
+<string name="fogot_password">lupa kata sandi.</string>
+<string name="email_already_exists">Email sudah ada</string>
+<string name="enter_full_info">Anda perlu mengisi formulir!</string>
+<string name="signin_error">Gagal masuk, coba lagi nanti!</string>
+<string name="register_success">Daftarkan kesuksesan</string>
+<string name="register_error">Daftar gagal, coba lagi nanti!</string>
+<string name="no_internet">Tidak ada koneksi internet </string>
+<string name="error">Kesalahan! Silakan coba lagi nanti</string>
+<string name="follow_success">Diikuti dengan sukses</string>
+<string name="unfollow_success">Berhasil diikutsertakan</string>
+<string name="update_success">Berhasil diikutsertakan</string>
+<string name="comment_fail">Komentar gagal, coba lagi nanti</string>
+<string name="see_list">Lihat daftar</string>
+
+<string name="send_video">Kirim video ke PiPop</string>
+<string name="enter_link_youtube">Masukkan tautan Youtube</string>
+<string name="link_youtube_not_valid">Tautan YouTube tidak valid, silakan periksa lagi.</string>
+<string name="signin_contribute">Anda harus masuk untuk mengirim video ke PiPop</string>
+<string name="contribute_success">Kirim video dengan sukses</string>
+
+<string name="name">NAMA</string>
+<string name="what_name">Namamu</string>
+<string name="japanese_level">Tingkat Jepang</string>
+<string name="sex">Jenis kelamin</string>
+<string name="birthday">Tanggal lahir</string>
+<string name="badge_viewer">Penonton</string>
+<string name="song_favorite">Lagu-lagu favorit :</string>
+<string name="song_favorite_v2">Lagu-lagu favorit</string>
+<string name="what_song_favorite">Lagu favorit Anda</string>
+<string name="singer_favorite">Artis favorit :</string>
+<string name="singer_favorite_v2">Artis favorit</string>
+<string name="what_singer_favorite">Artis favorit Anda</string>
+<string name="more_profile">Tentang saya:</string>
+<string name="more_profile_v2">Tentang saya</string>
+<string name="what_more_profile">Tentang saya</string>
+<string name="following">Berikut</string>
+<string name="be_follow">Pengikut</string>
+<string name="video_saved">Video favorit</string>
+<string name="video_hot">Video yang luar biasa</string>
+<string name="video_translated">Video yang diterjemahkan</string>
+<string name="choose">Memilih</string>
+<string name="male">Pria</string>
+<string name="female">Wanita</string>
+<string name="unknown">Tidak dikenal</string>
+<string name="no_info">Tidak ada informasi</string>
+<string name="text_report">Laporan kesalahan</string>
+<string name="text_enter_error">Terjadi kesalahan</string>
+<string name="load_failed">Pemuatan gagal</string>
+<string name="singer">Artis</string>
+<string name="translator">Penterjemah</string>
+<string name="user">Pengguna</string>
+<string name="other">Biografi :</string>
+<string name="founding">Tanggal aktif</string>
+<string name="success">Berhasil!</string>
+<string name="cancel">Membatalkan</string>
+<string name="cancel_2">Membatalkan</string>
+<string name="cancel_3">Membatalkan</string>
+<string name="ok">Baik</string>
+<string name="show">Menunjukkan</string>
+<string name="hide">Menyembunyikan</string>
+<string name="share">Bagikan</string>
+<string name="share_with">Berbagi dengan?</string>
+<string name="share_video">berbagi video</string>
+<string name="you_want_to">Anda yakin mau</string>
+<string name="clear">Bersih</string>
+<string name="clear_search">Hapus riwayat pencarian Anda ?</string>
+<string name="clear_item_search">Hapus dari riwayat pencarian Anda ?</string>
+<string name="change_password">Ganti kata sandi</string>
+<string name="change_password_2">Ganti kata sandi</string>
+<string name="password_current">Kata sandi saat ini</string>
+<string name="password_new">Kata sandi baru</string>
+<string name="submit_password">Konfirmasi sandi</string>
+<string name="enter_password_below">Silakan masukkan kata sandi baru Anda di bawah ini</string>
+<string name="can_not_null">Anda tidak dapat membiarkan bidang ini kosong</string>
+<string name="password_wrong">Kata sandi salah. Silakan coba lagi.</string>
+<string name="success_2">Berhasil</string>
+<string name="change_password_success">Ubah kata sandi berhasil</string>
+<string name="go_homepage">Kembali ke halaman Home</string>
+<string name="thanks_contribution">Terima kasih atas kontribusi anda</string>
+<string name="go_back">Kembali</string>
+
+<string name="day">Hari:</string>
+<string name="month">Bulan:</string>
+<string name="year">Tahun:</string>
+
+<string name="name_song">Nama Song</string>
+<string name="name_singer">Nama artis</string>
+<string name="link_youtube">Tautkan Youtube</string>
+<string name="send">Kirim</string>
+<string name="view_translation">Lihat terjemahan</string>
+<string name="want_to_quit">Anda belum mengirim Lirik Anda ke PiPop. Anda yakin ingin berhenti?</string>
+<string name="no">Tidak</string>
+<string name="yes">Iya nih</string>
+
+<!--fragment more-->
+<string name="text_update_premium">Perbarui versi Premium</string>
+<string name="text_lh_gop_y">Umpan balik</string>
+<string name="text_danh_gia_ud">Beri kami nilai</string>
+<string name="text_dieu_khoan_sd">Ketentuan</string>
+<string name="blog">Lirik Blog</string>
+
+<string name="update">MEMPERBARUI</string>
+<string name="update_youtube">Perbarui aplikasi youtube</string>
+<string name="update_contain">Harap perbarui aplikasi YouTube untuk menonton video di PiPop.</string>
+<string name="watch_want">Tonton kapanpun Anda mau</string>
+<string name="watch_later">Simpan video untuk ditonton nanti. \n Daftar Anda akan ditampilkan di sini.</string>
+
+<string name="playing">Bermain</string>
+
+<string name="new_video_on_pika">punya lagu baru:</string>
+<string name="copied_link">Tautan yang disalin</string>
+
+<string name="write_comment">Tulis komen</string>
+
+<string name="copy">Salinan</string>
+<string name="copied">Disalin ke papan klip</string>
+<string name="delete">Menghapus</string>
+<string name="edit">Edit</string>
+
+<string name="word">Kosa kata</string>
+<string name="kanji">Kanji</string>
+<string name="sentence">Kalimat</string>
+<string name="image">Gambar</string>
+<string name="redraw">Gambarkan ulang</string>
+<string name="examples">Contoh </string>
+<string name="mean">Berarti: %s</string>
+<string name="on">On: %s</string>
+<string name="kun">Kun: %s</string>
+<string name="strokeCount">Jumlah guratan: %s</string>
+<string name="levelJLPT">Tingkat JLPT: %s</string>
+
+<!--Conjugation verb table detail search-->
+<string name="verbTable_1">Kamus (辞書)</string>
+<string name="verbTable_2">Lalu (た)</string>
+<string name="verbTable_3">Negatif (未然)</string>
+<string name="verbTable_4">Sopan (丁寧)</string>
+<string name="verbTable_5">te (て)</string>
+<string name="verbTable_6">Potensi (可能)</string>
+<string name="verbTable_7">Pasif (受身)</string>
+<string name="verbTable_8">Kausatif (使役)</string>
+<string name="verbTable_9">Pasif Penyebab (使役受身)</string>
+<string name="verbTable_10">Bersyarat (条件)</string>
+<string name="verbTable_11">Imperatif (命令)</string>
+<string name="verbTable_12">Kesenangan (意向)</string>
+<string name="verbTable_13">Larangan (禁止)</string>
+
+<string name="text_conjugate_verb_table">Tabel konjugasi kata kerja:</string>
+<string name="mazii_dictionary">Kamus Mazii</string>
+<string name="auto_translate">Terjemahan otomatis</string>
+<string name="synonym_of"><![CDATA[Sinonim dari: <b>%s</b>]]></string>
+
+<string name="press_back_once_again">Tekan kembali sekali lagi untuk keluar</string>
+
+<string name="share_on_facebook">Kirim ke Facebook</string>
+<string name="copy_link">Salin tautan</string>
+<string name="different">Lainnya</string>
+
+<string name="you_like_this_video">Anda menyukai video ini</string>
+<string name="likes">suka</string>
+<string name="like">suka</string>
+<string name="you_and_other">Anda dan %d lainnya</string>
+<string name="you_and_others">Anda dan %d lainnya</string>
+<string name="comments">%d komentar</string>
+<string name="comment_">%d komentar</string>
+
+<string name="year_ago">tahun yang lalu</string>
+<string name="years_ago">tahun lalu</string>
+<string name="month_ago">bulan yang lalu</string>
+<string name="months_ago">bulan yang lalu</string>
+<string name="day_ago">hari yang lalu</string>
+<string name="days_ago">hari yang lalu</string>
+<string name="hour_ago">jam yang lalu</string>
+<string name="hours_ago">jam yang lalu</string>
+<string name="minute_ago">menit yang lalu</string>
+<string name="minutes_ago">menit yang lalu</string>
+<string name="second_ago">detik yang lalu</string>
+<string name="seconds_ago">detik yang lalu</string>
+<string name="just_now">baru saja</string>
+
+<string name="jlpt_n5">JLPT N5</string>
+<string name="jlpt_n4">JLPT N4</string>
+<string name="jlpt_n3">JLPT N3</string>
+<string name="jlpt_n2">JLPT N2</string>
+<string name="jlpt_n1">JLPT N1</string>
+
+<string name="lang">jaen</string>
+<string name="choose_language">Pilih bahasa</string>
+<string name="language_code">in</string>
+<string name="vn">Vietnam</string>
+<string name="en">Inggris</string>
+<string name="jp">Jepang</string>
+<string name="id">Indonesia</string>
+
+<string name="history_search">Sejarah pencarian</string>
+<string name="hot_keyword">Kata kunci panas</string>
+<string name="buy_premium">Tingkatkan Premium</string>
+<string name="Upgraded">Ditingkatkan</string>
+<string name="expiration_date">Tanggal kadaluarsa: %s</string>
+<string name="premium_forever">Premi Selama lamanya</string>
+<string name="premium_6_month">Premi 06 bulan</string>
+<string name="no_ads">Nonaktifkan iklan</string>
+
+<string name="premium_failed_title">Pembayaran gagal</string>
+<string name="premium_upgrade_successful_title">Pembayaran telah berhasil dilakukan!</string>
+<string name="premium_successful_desc">Selamat, Anda adalah akun premium sekarang, tetap menikmati aplikasi.</string>
+
+<string name="translation_not_available">Terjemahan ini belum tersedia</string>
+<string name="contribute_translation">Apakah Anda ingin berkontribusi %s lirik untuk lagu ini?</string>
+<string name="complete_translation">Lengkapi terjemahan Anda</string>
+<string name="complete_percent">Anda telah menerjemahkan %s lirik <b>%s</b>. Apakah Anda ingin menyelesaikan terjemahan Anda?</string>
+<string name="complete_trans">Anda telah menerjemahkan %s dari lirik %s (%s). Apakah Anda ingin menyelesaikan terjemahan Anda?</string>
+<string name="translate_now">Terjemahkan sekarang</string>
+
+<string name="anime_continue">Baru-baru ini bermain Anime</string>
+<string name="anime_new">Anime baru</string>
+<string name="anime_hot">Hot Anime</string>
+<string name="anime_album">Album Anime</string>
+<string name="anime_random">Anime Acak</string>
+<string name="play_random_press">Tekan putar secara acak untuk menyegarkan diri Anda</string>
+
+<string name="title_rate">Apakah Anda suka PiPop?</string>
+<string name="content_rate">Jika Anda menikmati menggunakan aplikasi ini, maukah Anda meluangkan waktu untuk menilai itu? Tidak akan lebih dari satu menit. Terima kasih atas dukungan Anda!</string>
+<string name="later">Ingatkan aku nanti</string>
+<string name="no_thanks">Tidak, terima kasih</string>
+<string name="rate_now">Beri peringkat sekarang</string>
+<string name="no_result">Maaf, tidak ada hasil untuk kata kunci ini.\n Merekomendasikan untuk Anda</string>
+
+<string name="top_week">Minggu</string>
+<string name="top_month">Bulan</string>
+<string name="all">Semua</string>
+
+<string name="new_version">Versi baru</string>
+<string name="new_version_content">Pipop memiliki versi baru. Apakah Anda ingin memperbarui sekarang?</string>
+<string name="update_now">Memperbarui sekarang</string>
+
+<string name="select_language">Pilih bahasa</string>
+<string name="language_code_2">in</string>
+<string name="device_language">Bahasa perangkat</string>
+<string name="selecet_theme">Tema</string>
+<string name="theme_light">Ringan</string>
+<string name="theme_dark">Gelap</string>
+<string name="enter_list_title">Masukkan nama playlist…</string>
+<string name="save_to_playlist">Simpan ke playlist</string>
+<string name="create_new_playlist">Buat playlist baru</string>
+<string name="saved_playlist">Playlist</string>
+<string name="new_playlist">Daftar putar baru</string>
+<string name="create_playlist">Membuat</string>
+<string name="added_to_playlist">Ditambahkan ke %s</string>
+<string name="rename">Ganti nama</string>
+<string name="delete_playlist_confirm">Apakah Anda ingin menghapus daftar putar ini?</string>
+<string name="delete_succesfully">%s telah dihapus</string>
+<string name="no_playlist_hint">Tonton video dan simpan ke daftar putar</string>
+<string name="no_playlist">Tidak ada daftar putar</string>
+<string name="delete_video_confirm">Apakah Anda ingin menghapus video ini?</string>
+<string name="no_video">Tidak ada video</string>
+<string name="video_1">1 video</string>
+<string name="video_many">video</string>
+<string name="save_to_watch_later">Simpan ke Tonton Nanti</string>
+<string name="saved_to_watch_later">Ditambahkan ke Tonton nanti</string>
+<string name="already_been_saved">Ditambahkan ke Tonton nanti</string>
+    <string name="key_youtube_api">AIzaSyA5Z1muPiy_PPdpLHll1DYB0hpDDXadY84</string>
+
+</resources>

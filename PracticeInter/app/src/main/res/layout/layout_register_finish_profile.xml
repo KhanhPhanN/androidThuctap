@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/update_profile_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_32"
+    android:paddingRight="@dimen/padding_32"
+    android:paddingTop="@dimen/padding_32"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_24"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_weight="2"
+            android:background="@color/colorWhite" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:text="@string/update_profile"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_weight="2"
+            android:background="@color/colorWhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_8"
+                android:text="@string/japanese_level"
+                android:textColor="@color/colorWhite" />
+
+            <LinearLayout
+                android:id="@+id/sp_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_8"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingStart="@dimen/padding_8"
+                android:paddingTop="@dimen/padding_8">
+
+                <TextView
+                    android:id="@+id/tv_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:layout_marginRight="@dimen/margin_4"
+                    android:layout_marginTop="@dimen/margin_2"
+                    android:src="@drawable/drop_down" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_8"
+                android:text="@string/sex"
+                android:textColor="@color/colorWhite" />
+
+            <LinearLayout
+                android:id="@+id/sp_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_8"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingStart="@dimen/padding_8"
+                android:paddingTop="@dimen/padding_8">
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:layout_marginRight="@dimen/margin_4"
+                    android:layout_marginTop="@dimen/margin_2"
+                    android:src="@drawable/drop_down" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_8"
+                android:text="@string/birthday"
+                android:textColor="@color/colorWhite" />
+
+            <LinearLayout
+                android:id="@+id/sp_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/sp_month"
+                android:layout_toStartOf="@id/sp_month"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_8"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingStart="@dimen/padding_8"
+                android:paddingTop="@dimen/padding_8">
+
+                <TextView
+                    android:id="@+id/tv_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:layout_marginRight="@dimen/margin_4"
+                    android:layout_marginTop="@dimen/margin_2"
+                    android:src="@drawable/drop_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sp_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/sp_year"
+                android:layout_toStartOf="@id/sp_year"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_8"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingStart="@dimen/padding_8"
+                android:paddingTop="@dimen/padding_8">
+
+                <TextView
+                    android:id="@+id/tv_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/month"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:layout_marginRight="@dimen/margin_4"
+                    android:layout_marginTop="@dimen/margin_2"
+                    android:src="@drawable/drop_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sp_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_8"
+                android:paddingLeft="@dimen/padding_8"
+                android:paddingStart="@dimen/padding_8"
+                android:paddingTop="@dimen/padding_8">
+
+                <TextView
+                    android:id="@+id/tv_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_4"
+                    android:layout_marginRight="@dimen/margin_4"
+                    android:layout_marginTop="@dimen/margin_2"
+                    android:src="@drawable/drop_down" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_song_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8"
+            android:text="@string/song_favorite"
+            android:textColor="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_song_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/margin_8"
+            android:background="@drawable/bg_text"
+            android:gravity="start"
+            android:padding="@dimen/padding_4"
+            android:textColor="@color/colorTextGray"
+            android:textSize="@dimen/textSize12" />
+
+        <TextView
+            android:id="@+id/tv_singer_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="@string/singer_favorite"
+            android:textColor="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_singer_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/margin_8"
+            android:background="@drawable/bg_text"
+            android:gravity="start"
+            android:padding="@dimen/padding_4"
+            android:textColor="@color/colorTextGray"
+            android:textSize="@dimen/textSize12" />
+
+        <TextView
+            android:id="@+id/tv_more_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="@string/more_profile"
+            android:textColor="@color/colorWhite" />
+
+        <EditText
+            android:id="@+id/et_more_profile"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="@dimen/margin_8"
+            android:background="@drawable/bg_text"
+            android:gravity="start"
+            android:padding="@dimen/padding_4"
+            android:textColor="@color/colorTextGray"
+            android:textSize="@dimen/textSize12" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_32"
+        android:layout_marginLeft="@dimen/margin_56"
+        android:layout_marginRight="@dimen/margin_56"
+        android:layout_marginTop="@dimen/margin_32">
+
+        <TextView
+            android:id="@+id/btn_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_register"
+            android:gravity="center"
+            android:paddingTop="@dimen/padding_12"
+            android:paddingBottom="@dimen/padding_12"
+            android:text="@string/finish"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/pb_finish"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>

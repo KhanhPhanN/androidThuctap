@@ -20,7 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.PlayVideo"></activity>
+        <activity android:name=".Activity.PlayVideo" />
+        <activity android:name=".Activity.Signin" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".Activity.UpdateProfileActivity"></activity>
     </application>
 
 </manifest>

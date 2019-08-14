@@ -2,22 +2,32 @@ package com.example.enterc.practiceinter.Activity;
 
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.os.Build;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.enterc.practiceinter.Model.Helper.GlobalHelper;
 import com.example.enterc.practiceinter.Model.Helper.NetworkChangeReceiver;
+import com.example.enterc.practiceinter.Model.Helper.PreferenceHelper;
 import com.example.enterc.practiceinter.R;
 import com.example.enterc.practiceinter.adapter.ViewPagerAdapterMain;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     ViewPager mViewPager;
     ViewPagerAdapterMain viewPagerAdapter;
     private NetworkChangeReceiver receiver;
+    PreferenceHelper preferenceHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         final Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
         receiver = new NetworkChangeReceiver();
-
+        preferenceHelper = new PreferenceHelper(this, GlobalHelper.PREFERENCE_NAME_PIKA);
+        setLanguageForApp();
          final IntentFilter filter = new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE");
          registerReceiver(receiver, filter);
 
@@ -161,5 +172,48 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         unregisterReceiver(receiver);
+    }
+
+    private void setLanguageForApp() {
+//        if (setLanguage)
+//            return;
+//        setLanguage = true;
+        String language = preferenceHelper.getApplicationLanguageCode();
+        if (language == null) {
+            language = getResources().getString(R.string.language_code_2);
+        }
+
+        Locale locale = new Locale(language);
+        Locale.setDefault(locale);
+
+        Log.d("_Language", language + " SDK_INT = " + Build.VERSION.SDK_INT);
+
+        Resources resources = getResources();
+        Configuration configuration = resources.getConfiguration();
+        DisplayMetrics displayMetrics = resources.getDisplayMetrics();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            configuration.setLocale(locale);
+        } else {
+            configuration.locale = locale;
+        }
+
+        resources.updateConfiguration(configuration, displayMetrics);
+//        recreate();
+
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+//            getApplicationContext().createConfigurationContext(configuration);
+//        } else {
+//            resources.updateConfiguration(configuration, displayMetrics);
+//        }
+
+//        Log.d("Language", language);
+//        Locale myLocale = new Locale(language);
+//        Locale.setDefault(myLocale);
+//        Resources res = this.getResources();
+//        DisplayMetrics dm = res.getDisplayMetrics();
+//        Configuration conf = res.getConfiguration();
+//        conf.locale = myLocale;
+//        res.updateConfiguration(conf, dm);
     }
 }
